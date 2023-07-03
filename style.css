@@ -1,0 +1,99 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    height: 100vh;
+    background: linear-gradient(to bottom, #6052AB, #312D44);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    background-color: rgba(0, 0, 0, 0.513);
+    color: white;
+    width: 30rem;
+    max-width: 90vw;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px 20px ;
+}
+h2 {
+    text-align: center;
+}
+
+.form-group {
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+input {
+  height: 40px;  
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+  color: white;
+  font-size: 18px;
+}
+
+.form-group > label {
+    color: #6455B0; 
+}
+
+.input_password{
+    display: flex;
+    position: relative;
+}
+
+.input_password > input {
+    flex: 1;
+}
+
+.eye {
+    position: absolute;
+    right: 0;
+    right: 0px;
+}
+
+.botao-acessar {
+    background-color: #7E69EC;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    border: transparent;
+    align-items: center; 
+    justify-content: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    box-shadow: #6951df 0px 5px 50px 5px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.asterisco{
+    color: rgb(212, 60, 60);
+}
+
+div i{
+    font-size: 30px;
+    cursor: pointer;
+    display: flex;
+    right: 5% ;
+    color: #7a7a7a;
+}
+
+/* @media screen (max-width: 400px) {
+    
+} */
